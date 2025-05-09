@@ -2,42 +2,82 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <!-- title요소 : 브라우저 탭에 출력 -->
-    <title>네이버요약뉴스 2025.05</title>
+    <title>
+      네이버요약뉴스 2025.05
+    </title>
+    <!-- 스타일 요소 -->
+     <style>
+        /* CSS 인터널 코딩구역 */
+        /* 
+            선택자{
+                속성:값;
+            }
+
+            -> 선택자는 기본적으로
+                요소명 / 아이디명 / 클래스명
+
+        */
+        /* header{ 요소명  */
+        /* #top-area{ 아이디  */
+        .part{/* 클래스명 */
+            /* 보더(경계선) */
+            border: 10px solid #f00;
+            /* 안쪽여백(패딩) */
+            padding: 15px;
+        }
+     </style>
   </head>
   <body>
     <!--alt+shift+a  -->
     <!-- 1. 상단영역 -->
     <header id="top-area" class="part">
       <!-- 1-1. 타이틀 -->
-        <h1>네이버 요약뉴스</h1>
-        <!-- 1-2. 메뉴 -->
-             <nav class="menu">
-                <a href="index.html">
-                    <img src="images/naver_logo.png" alt="네이버로고">
-                </a>
-                <span> | </span>
-                <a href="sub.html">정치</a>
-                <span> | </span>
-                <a href="sub.html">경제</a>
-                <span> | </span>
-                <a href="sub.html">사회</a>
-                <span> | </span>
-                <a href="sub.html">IT/과학</a>
-                <span> | </span>
-                <a href="sub.html">TV/연예</a>
-             </nav>
+      <h1>네이버 요약뉴스</h1>
+      <!-- 1-2. 메뉴 -->
+      <nav class="menu">
+        <a href="index.html">
+          <img
+            src="images/naver_logo.png"
+            alt="네이버로고"
+            style="
+              width: 40px;
+              vertical-align: middle;
+            "
+          />
+        </a>
+        <a href="sub1.html">정치</a>
+        <span> | </span>
+        <a href="sub2.html">경제</a>
+        <span> | </span>
+        <a href="sub3.html">사회</a>
+        <span> | </span>
+        <a href="sub4.html">IT/과학</a>
+        <span> | </span>
+        <a href="sub5.html">TV/연예</a>
+      </nav>
     </header>
     <!-- <div id="header"></div> -->
 
     <!-- 2. 메인영역 -->
     <!-- <div id="main"></div> -->
-    <main id="main-area" class="part"></main>
+    <main
+      id="main-area"
+      class="part"
+    ></main>
     <!-- 3. 메인하단 -->
     <div id="footer"></div>
-    <footer id="info-area" class="part"></footer>
-    <a href="https://www.youtube.com/watch?v=aQY9z8K_gPU" target="_blank"
+    <footer
+      id="info-area"
+      class="part"
+    ></footer>
+    <a
+      href="https://www.youtube.com/watch?v=aQY9z8K_gPU"
+      target="_blank"
       >https://www.youtube.com/watch?v=aQY9z8K_gPU</a
     >
   </body>
